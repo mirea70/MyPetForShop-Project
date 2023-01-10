@@ -22,7 +22,7 @@
 # 💨 구현한 기능
 ### - 회원 도메인 및 로그인(+ 소셜) 기능
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211674353-a68c4956-7a2d-470d-a212-517c8e100762.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211677738-4dc5c3f7-6566-4cea-b685-9a45ba9b0420.gif">
 </p>
 
 - 회원가입 시, 유효성 검사, 비밀번호 마스킹 처리
@@ -34,7 +34,7 @@
 
 ### - 상품 도메인 기능
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211674680-82298389-958d-4145-a303-9ef37682e9dc.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211677908-1795e77b-d2b0-4067-b293-38fd3dc4bdef.gif">
 </p> 
 
 - 로그인을 한 유저의 화면에서만 상품 등록 버튼이 보입니다. (추후 권한 설정을 추가하여 관리자 계정일 때만 보이도록 수정 예정)
@@ -45,7 +45,7 @@
 
 ### - 상품 찜 / 인기 상품 나열 기능
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211674847-2b5e58dd-ce85-45e9-94e5-cf7c84da90c5.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211677966-d9a76b99-f336-4cc0-a6b5-62503a34ff07.gif">
 </p> 
 
 - 찜하기 버튼을 클릭하여 상품을 찜 할 수 있습니다.
@@ -56,7 +56,7 @@
 
 ### - 상품 별 리뷰 / Q&A 기능
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211674952-0aa45474-19ec-40de-9f89-8e53b6c470ab.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211678018-77218f82-7ef9-4a9a-8f98-594796d73608.gif">
 </p> 
 
 - 상품 상세 페이지 Review탭에서 QnA와 Review를 등록할 수 있습니다.
@@ -66,7 +66,7 @@
 
 ### - 주문 및 결제 기능
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211675019-b2e6a4fc-c55f-4641-b1bf-82d03a7a9c05.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211678096-efa92522-f337-4989-9f34-775f4d6945b4.gif">
 </p> 
 
 - 장바구니부터 주문하기까지 기능을 구현하였습니다.
@@ -76,7 +76,7 @@
 
 ### - 게시판 기능 (커뮤니티, 공지사항, FAQ)
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/101246806/211675098-ef5303f0-1007-4743-969c-2cfee545e385.png"
+  <img src="https://user-images.githubusercontent.com/101246806/211678142-7189a682-8f26-4f36-a71d-16957d010f3b.gif">
 </p> 
 
 - 기본적인 게시판 기능을 구현하였습니다.
@@ -95,7 +95,7 @@
 
 # :information_desk_person: 팀 인원
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/101246806/194975433-c69df4cd-0216-49e0-9d27-77fd1ae5cfbc.png"
+  <img src="https://user-images.githubusercontent.com/101246806/194975433-c69df4cd-0216-49e0-9d27-77fd1ae5cfbc.png">
 </p> 
   
   <br/>
