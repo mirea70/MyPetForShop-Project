@@ -18,12 +18,88 @@
     <h3> 프로젝트 기간 : 2022.09.07(수) ~ 2022.10.09(일) </h3>
 </div>
 <br/>
-  
+
+# 💨 구현한 기능
+### - 회원 도메인 및 로그인(+ 소셜) 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211674353-a68c4956-7a2d-470d-a212-517c8e100762.png"
+</p>
+
+- 회원가입 시, 유효성 검사, 비밀번호 마스킹 처리
+- 제출 버튼을 누르면 DB에 회원 정보가 저장되며, 로그인 시 이 데이터를 활용
+- 로그인에 성공 시 발행한 토큰을 세션 스토리지에 저장 후 인가 처리에 사용
+- 로그아웃 시 세션 스토리지를 비워주고, 백엔드 측에선 토큰 탈취를 고려하여 DB에 저장된 Refresh 토큰을 제거합니다.
+
+ <br/>
+
+### - 상품 도메인 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211674680-82298389-958d-4145-a303-9ef37682e9dc.png"
+</p> 
+
+- 로그인을 한 유저의 화면에서만 상품 등록 버튼이 보입니다. (추후 권한 설정을 추가하여 관리자 계정일 때만 보이도록 수정 예정)
+- 위와 같이 상품 정보를 입력 후, 제출 버튼을 누르면 상품이 메인 이미지와 함께 등록됩니다.
+- 상품 삭제도 가능합니다.
+
+ <br/>
+
+### - 상품 찜 / 인기 상품 나열 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211674847-2b5e58dd-ce85-45e9-94e5-cf7c84da90c5.png"
+</p> 
+
+- 찜하기 버튼을 클릭하여 상품을 찜 할 수 있습니다.
+- 마이페이지에서 찜 목록 버튼을 클릭하여 찜 목록을 확인할 수 있습니다.
+- 상품들의 판매량을 기준으로 판매량이 높은 상위 8개의 상품이 인기상품에 나열되게 됩니다.
+
+ <br/>
+
+### - 상품 별 리뷰 / Q&A 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211674952-0aa45474-19ec-40de-9f89-8e53b6c470ab.png"
+</p> 
+
+- 상품 상세 페이지 Review탭에서 QnA와 Review를 등록할 수 있습니다.
+- 휴지통 모양 버튼을 누르면, 삭제되어 사라집니다.
+
+ <br/>
+
+### - 주문 및 결제 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211675019-b2e6a4fc-c55f-4641-b1bf-82d03a7a9c05.png"
+</p> 
+
+- 장바구니부터 주문하기까지 기능을 구현하였습니다.
+- 결제 정보를 DB에 저장하여 조회할 수 있도록 가결제로 구현하였습니다.
+
+ <br/>
+
+### - 게시판 기능 (커뮤니티, 공지사항, FAQ)
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211675098-ef5303f0-1007-4743-969c-2cfee545e385.png"
+</p> 
+
+- 기본적인 게시판 기능을 구현하였습니다.
+- 댓글 등록 또한 가능합니다.
+
+ <br/>
+
+### - 서버 에러 날 시, 개발자에게 메일링 기능
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211675295-14b75c48-ad51-4c58-bccc-fb58ddeb4047.png" width= "700"/>
+</p> 
+
+- 백엔드 서버에서 미리 핸들링되도록 설정하지 않은 에러가 발생 시, 등록한 개발자들의 이메일로 해당 에러의 내용을 메일 발송합니다.
+
+ <br/>
+
 # :information_desk_person: 팀 인원
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/101246806/194975433-c69df4cd-0216-49e0-9d27-77fd1ae5cfbc.png"
 </p> 
   
+  <br/>
+  <br/>
   <br/>
   
 # :sparkler: 기술스택
