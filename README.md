@@ -110,7 +110,12 @@
   
 ## 🔎 [요구사항 명세서](https://docs.google.com/spreadsheets/d/10A_OVETxs4MMVz9bb-l9PbH-4gBJvXAy1vHKStk5auw/edit#gid=0)
 ## 💻 [테이블 명세서](https://docs.google.com/spreadsheets/d/1W4ntaUjgMV2KYUmQAwriEsGxL1W-KVYHuGzaB1rIwiY/edit#gid=136126072)
-## 📂 [API 문서](https://shopforourpets.shop:8080/swagger-ui/index.html)  
+## 📂 [API 문서]
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/101246806/211678676-02790880-2906-4a01-a053-5cbe65eec059.png">
+  <img src="https://user-images.githubusercontent.com/101246806/211678826-8bdb35f3-092d-4041-8145-e9f2f606d64f.png">
+  <img src="https://user-images.githubusercontent.com/101246806/211678896-67e66e3b-f1a9-4db3-a5b2-bb0a7431d2bc.png">
+</p> 
 <br/>
   
 # 🙆 팀 문화
